@@ -1,0 +1,6 @@
+{
+    "extends": "ts-config/expo",
+    "compilerOptions": {
+      "strict": true
+    }
+}

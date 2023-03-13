@@ -1,0 +1,49 @@
+{
+  "name": "jkbx-client",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "configs/*",
+    "features/*",
+    "packages/*",
+    "utils/*"
+  ],
+  "scripts": {
+    "build:mobile": "npm run -w apps/mobile build",
+    "build:storybook": "storybook build",
+    "build:web": "npm run -w apps/web build",
+    "dev:mobile": "npm run -w apps/mobile dev",
+    "dev:storybook": "storybook dev -p 6006",
+    "dev:web": "npm run -w apps/web dev",
+    "lint:check": "turbo run lint",
+    "start:mobile": "npm run -w apps/mobile start",
+    "start:mobile:android": "npm run -w apps/mobile android",
+    "start:mobile:ios": "npm run -w apps/mobile ios",
+    "start:web": "npm run -w apps/web start"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.55",
+    "@storybook/addon-interactions": "^7.0.0-beta.55",
+    "@storybook/addon-links": "^7.0.0-beta.55",
+    "@storybook/blocks": "^7.0.0-alpha.8",
+    "@storybook/nextjs": "^7.0.0-beta.55",
+    "@storybook/react": "^7.0.0-beta.55",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "chromatic": "^6.17.1",
+    "eslint-config-custom": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.0-beta.55",
+    "turbo": "^1.7.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.5.5",
+  "dependencies": {
+    "i18next": "^22.4.11",
+    "next-i18next": "^13.2.2",
+    "react-i18next": "^12.2.0"
+  }
+}

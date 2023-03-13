@@ -1,0 +1,27 @@
+area:
+  title: Area Chart
+  legend:
+    title: Legend
+    label: Sample Label
+    value: Sample Value
+    percent: Sample Percent
+  axis:
+    x: X Axis
+    y: Y Axis
+pie:
+  title: Pie Chart
+  legend:
+    title: Legend
+    label: Sample Label
+    value: Sample Value
+    percent: Sample Percent
+line:
+  title: Line Chart
+  legend:
+    title: Legend
+    label: Sample Label
+    value: Sample Value
+    percent: Sample Percent
+  axis:
+    x: X Axis
+    y: Y Axis
