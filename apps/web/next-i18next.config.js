@@ -7,9 +7,9 @@ module.exports = {
   interpolation: {
     escapeValue: false,
   },
-  keySeparator: '.',
+  // keySeparator: '.',
   localeExtension: 'yml',
-  localePath: '../../utils/copy',
-  localeStructure: '{{ns}}',
-  nsSeparator: '::',
+  // localePath: '../../utils/copy',
+  // localeStructure: '{{ns}}',
+  // nsSeparator: '::',
 };
