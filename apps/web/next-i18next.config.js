@@ -9,7 +9,8 @@ module.exports = {
   },
   // keySeparator: '.',
   localeExtension: 'yml',
-  localePath: './public/locales/',
+  localePath: './foo/',
   localeStructure: '{{ns}}',
+  ns: ['common'],
   // nsSeparator: '::',
 };
