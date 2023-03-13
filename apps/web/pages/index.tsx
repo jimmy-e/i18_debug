@@ -18,8 +18,8 @@ const Home: React.FC = () => {
   return (
     <>
       <h1>Common</h1>
-      <p>{t('bar', { ns: 'common' })}</p>
-      <p>{t('baz', { ns: 'common' })}</p>
+      <p>{t('bar')}</p>
+      <p>{t('baz')}</p>
     </>
   );
 };
