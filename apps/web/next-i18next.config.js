@@ -11,6 +11,6 @@ module.exports = {
   localeExtension: 'yml',
   localePath: './copy/',
   localeStructure: '{{ns}}',
-  ns: ['common'],
+  ns: ['common', 'legal', 'ui'],
   // nsSeparator: '::',
 };
