@@ -1,6 +1,0 @@
-{
-  "name": "postcss-config",
-  "private": true,
-  "version": "0.0.0",
-  "main": "postcss.config.js"
-}
