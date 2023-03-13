@@ -10,6 +10,6 @@ module.exports = {
   // keySeparator: '.',
   localeExtension: 'yml',
   // localePath: '../../utils/copy',
-  // localeStructure: '{{ns}}',
+  localeStructure: '{{ns}}',
   // nsSeparator: '::',
 };
