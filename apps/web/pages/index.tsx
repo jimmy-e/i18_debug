@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-// todo: add typing
 export async function getStaticProps({ locale }) {
   return {
     props: {
