@@ -7,19 +7,21 @@ export async function getStaticProps({ locale }) {
     props: {
       ...(await serverSideTranslations(locale, [
         'common',
+        'ui',
       ])),
     },
   };
 }
 
 const Home: React.FC = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation(['common', 'ui']);
 
   return (
     <>
       <h1>Common</h1>
-      <p>{t('bar')}</p>
-      <p>{t('baz')}</p>
+      <p>{t('bar', { ns: 'common' })}</p>
+      <h1>UI</h1>
+      <p>{t('label', { ns: 'ui::button '})}</p>
     </>
   );
 };

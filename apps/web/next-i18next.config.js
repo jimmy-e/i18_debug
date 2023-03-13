@@ -7,10 +7,10 @@ module.exports = {
   interpolation: {
     escapeValue: false,
   },
-  // keySeparator: '.',
+  keySeparator: '.',
   localeExtension: 'yml',
   localePath: './copy/',
   localeStructure: '{{ns}}',
-  ns: ['common', 'legal', 'ui'],
-  // nsSeparator: '::',
+  ns: ['common', 'legal', 'ui', 'button'],
+  nsSeparator: '::',
 };
